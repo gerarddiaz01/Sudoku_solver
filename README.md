@@ -1,4 +1,4 @@
-# Sudoku Solver
+# Sudoku Solver 🧩
 
 This project is a fully interactive Sudoku solver written in Python using pygame, with a dynamic graphical interface and a recursive backtracking algorithm. It’s designed both as a functional puzzle app and a learning tool — ideal for beginners (like me when I started) trying to grasp the tricky logic behind recursion and algorithmic problem solving.
 
@@ -6,11 +6,11 @@ It includes:
 - Real-time animated solving
 - Custom puzzle input
 - A extra folder with the same scripts but beginner-friendly with deep in-line explanations
-- A bonus walkthrough on how recursion + backtracking works (because that part was hard to learn for myself)
+- A bonus walkthrough on how recursion + backtracking works (because that part was hard to understand for myself)
 
 ---
 
-## Learning Context
+## Learning Context 📚
 
 Created in May 2025 — this was my most challenging and rewarding Python project so far. It helped me cross the bridge between beginner syntax and algorithmic problem solving.
 
@@ -33,23 +33,23 @@ Sudoku_solver/
 
 ---
 
-## How to Run the Program
+## How to Run the Program 🚀
 
 1. **Install Dependencies**:
    - Ensure you have Python installed on your machine.
    - Install the required libraries using the following command:
-     ```
+     ```python
      pip install pygame
      ```
 
 2. **Run the main Program**:
-     ```
+     ```python
      python [main.py]
      ```
 
 ---
 
-## Features
+## Features ✨
 
 - Example board ready to solve.
 - Custom puzzle input — click "Customize" and type your own board.
@@ -60,7 +60,7 @@ Sudoku_solver/
 
 ---
 
-## Tools and Strategies Used
+## Tools and Strategies Used 🛠️
 
 - pygame: Built the GUI grid, buttons, and animations
 - Backtracking + recursion: Core solving logic with detailed explanation
@@ -70,7 +70,7 @@ Sudoku_solver/
 
 ---
 
-## Challenges Encountered and Solutions
+## Challenges Encountered and Solutions 🧩
 
 ### Challenge 1: Understanding Recursion and Backtracking
 I hit a wall understanding how recursion and backtracking solve Sudoku — especially how the call stack unwinds. To overcome it, I annotated every line in solver_tutorial.py and main_tutorial.py, and wrote a walkthrough in Recursion_Explained.md to help others too.
@@ -86,7 +86,7 @@ The "Solve" button logic was duplicated and caused bugs. I isolated solving to a
 
 ---
 
-## What I Learned
+## What I Learned 👨‍🎓
 
 - Built confidence with recursive thinking and step-by-step debugging
 - Learned to use pygame for GUI grids, buttons, mouse events, and real-time rendering
@@ -96,14 +96,14 @@ The "Solve" button logic was duplicated and caused bugs. I isolated solving to a
 
 ---
 
-## Want to Understand Recursion and Backtracking?
+## Want to Understand Recursion and Backtracking? 🧠
 
 I struggled to learn how these terms work, so I documented it in:
 Recursion_Explained.md — Plain-language breakdown + walkthrough of the algorithm logic inside solver_tutorial.py and main_tutorial.
 
 ---
 
-## Conclusion
+## Conclusion 📝
 
 This project is a great starting point for anyone interested in learning about Sudoku solvers, backtracking, recursivity, and GUI development in Python. The detailed comments and beginner-friendly design make it accessible to learners, while the dynamic visualization and interactive features make it engaging and fun to use. My goal was not just to make things work, but to understand and explain them clearly to anyone that struggled like I did.
 
