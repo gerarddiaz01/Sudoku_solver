@@ -16,7 +16,7 @@ Created in May 2025 — this was my most challenging and rewarding Python projec
 
 ---
 
-## Project Structure
+## Project Structure 📁
 
 Sudoku_solver/
 ├──src
